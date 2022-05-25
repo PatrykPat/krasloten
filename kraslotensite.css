@@ -1,0 +1,113 @@
+body{font-family: sans-serif;
+    background-color: #20552f;
+}
+.menu{
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  ul {
+    font: inherit;
+    height: 50px;
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    background-color: #093916;
+  }
+  
+  ul li {
+    font-size: 20px;
+    float: right;
+  }
+    .push {
+    font-size: 20px;
+    float:left;
+  }
+  
+  
+  ul li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  ul li a:hover, .dropdown:hover .dropbtn {
+    color:#093916;
+    background-color:mediumvioletred;
+  }
+  
+  ul li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  #kraslot{
+    display:block;
+    flex-direction: column;
+    margin-top: 5%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 700px;
+    justify-content: center;
+    color: white;
+  }
+  .img{
+    height: 150%;
+    width: auto;
+  }
+  .img1{
+    display: inline-block;
+    flex-direction: column;
+    width: 30%;
+    margin-top: 15%;
+    margin-left: 5%;
+  }
+  .loterij{
+    font-size: 200%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 0;
+    top: 20%;
+  }
+  .info{width: 30%;
+    margin-left: 60%;
+    margin-bottom: -40%;
+    display: inline-block;
+    flex-direction: column;
+    text-align: center;
+    font-size: x-large;
+  }
+  .imgH{
+  margin-top: 25%;
+  margin-left: 200px;
+  width: 50%;
+  height: auto;
+  }
